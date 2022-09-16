@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Accordion</title>
+    <title>Конвертер</title>
 </head>
 <body>
     
-    <!-- Accordion -->
-    <button class="accordion">Section 1</button>
-    <div class="panel"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, reprehenderit.</p></div>
-    <button class="accordion">Section 2</button>
-    <div class="panel"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, reprehenderit.</p></div>
-    <button class="accordion">Section 3</button>
-    <div class="panel"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, reprehenderit.</p></div>
+    <!-- Ковертер -->
+    <h1>Money Converter</h1>
+    <p>
+        <label>$</label>
+        <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)">
+    </p>
+    <p>KZT: <span id="outputkzt"></span></p>
+
+
 
 <script src="assets/js/main.js"></script>
 </body>
