@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <!--  -->
+    <!-- Accordion -->
     <button class="accordion">Section 1</button>
     <div class="panel"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, reprehenderit.</p></div>
     <button class="accordion">Section 2</button>
