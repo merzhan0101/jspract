@@ -1,4 +1,10 @@
-function myFunction(){
-    var popup = document.getElementById('myPopup');
-    popup.classList.toggle('show');
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for(i = 0; i < acc.length; i++){
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+
+        this.nextElementSibling.classList.toggle("show");
+    }
 }
