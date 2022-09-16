@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>ToDo</title>
+    <title>Toggle Hide/Show своими руками. Alert</title>
 </head>
 <body>
     
-    <!-- Список задач -->
-    <div id="myDIV" class="header">
-        <h2>To Do app</h2>
-        <input type="text" id="myInput" placeholder="Title">
-        <span class="addBtn" onclick="newElement()">Add</span>
+    <!-- Toggle Hide/Show своими руками. Alert -->
+    <button onclick="myFunction()">Click</button>
+    <div id="myDiv">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ea sunt culpa expedita ipsa? Dolor veniam accusamus numquam illum nemo saepe asperiores illo at aliquid.
     </div>
-    <ul id="myUL">
-        <li class="checked">Task 1</li><!-- checked=выполнен, галочка -->
-        <li>Task 2</li>
-        <li>Task 3</li>
-        <li>Task 4</li>
-        <li>Task 5</li>
-    </ul>
 
+    <!-- alert -->
+    <div class="alert">
+        <span class="closebtn">&times;</span>
+        <strong>Danger</strong>
+    </div>
+    <div class="alert success">
+        <span class="closebtn">&times;</span>
+        <strong>Success</strong>
+    </div>
+    <div class="alert info">
+        <span class="closebtn">&times;</span>
+        <strong>Info</strong>
+    </div>
+    <div class="alert warning">
+        <span class="closebtn">&times;</span>
+        <strong>Warning</strong>
+    </div>
 
 
 <script src="assets/js/main.js"></script>
