@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Конвертер</title>
+    <title>ToDo</title>
 </head>
 <body>
     
-    <!-- Ковертер -->
-    <h1>Money Converter</h1>
-    <p>
-        <label>$</label>
-        <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)">
-    </p>
-    <p>KZT: <span id="outputkzt"></span></p>
+    <!-- Список задач -->
+    <div id="myDIV" class="header">
+        <h2>To Do app</h2>
+        <input type="text" id="myInput" placeholder="Title">
+        <span class="addBtn" onclick="newElement()">Add</span>
+    </div>
+    <ul id="myUL">
+        <li class="checked">Task 1</li><!-- checked=выполнен, галочка -->
+        <li>Task 2</li>
+        <li>Task 3</li>
+        <li>Task 4</li>
+        <li>Task 5</li>
+    </ul>
 
 
 
